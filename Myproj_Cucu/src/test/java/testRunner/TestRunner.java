@@ -10,11 +10,12 @@ public class TestRunner {
 	@RunWith(Cucumber.class)
 	@CucumberOptions 
 	(
-		features=".//Features/Login.feature",
+		features=".//Features/Customer.feature",
 		glue="stepDefinitions",
-		dryRun=false,
+		dryRun=true,
 		monochrome=true,
-		plugin= {"pretty", "html:Reports\\test-output"}
+		plugin= {"pretty", "html:Reports\\test-output"},
+		tags="@Test2"
 		
 	)
 		
