@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 public class AddCustomer {
 
 	
+	//git comment
+	
 	@FindBy (xpath ="//input[@id='Email']") private WebElement email;
 	@FindBy (xpath ="//input[@id='Password']") private WebElement password;
 	@FindBy (xpath ="//input[@id='FirstName']") private WebElement fName;
